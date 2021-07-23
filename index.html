@@ -8,20 +8,22 @@
     <title>ASU Video Game Development Club</title>
     <style>
         body {
-            max-width: 800px;
             margin: auto;
-            line-height: 1.6;
+            line-height: 1.2;
             color: #333;
             background: #eee;
-            font-family: Helvetica, Arial, sans-serif
-        }
-
-        .content {
-            margin-left: 220px;
+            font-family: Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         li>ul {
             padding-left: 0;
+        }
+
+        h1 {
+            margin-block-start: 0;
         }
 
         h4 {
@@ -32,16 +34,20 @@
             padding-left: 40px;
             margin-bottom: 0;
         }
-        #logo{
+
+        .logo {
             width: 200px;
-            position: fixed;
-            /* float: left; */
         }
+
+        .images {
+            text-align: center;
+        }
+
         .content img {
-            margin-top: 1em;
             width: 100px;
             margin-left: 40px;
         }
+
         @media screen and (max-width : 600px) {
             .content{
                 margin-left: 0;
@@ -54,71 +60,78 @@
 </head>
 
 <body>
-    <img id="logo" src="VGDCLogoTrnsPNTBig.png" alt="">
-    <div class="content">
+    <div class="images">
+        <img class="logo" src="VGDCLogoTrnsPNTBig.png" alt="">
+        <img class="logo heatwave" src="VGDC_heatwave_logo.png" alt="Heatwave Studio logo">
+    </div>
+    <div>
         <h1>ASU Video Game Development Club</h1>
         <section>
-            <h3>Meetings</h3>
+            <h2>Meetings</h2>
+            <h4>Summer 2021</h4>
             <ul>
-                <li>Fridays 2:00 - 4 COOR 195</li>
+                <li>Thursdays 7 - 9 on Discord</li>
+            </ul>
+            <h4>Fall 2021 (Starting 8/27)</h4>
+            <ul>
+                <li>Fridays 1:30 - 4 Hayden C1</li>
             </ul>
         </section>
         <section>
-            <h3>Events This Semester</h3>
+            <h2>Events This Semester</h2>
+                <h4>
+                    Club Social
+                </h4>
+                <ul>
+                    <li>Fall 2021 TBA</li>
+                </ul>
+                <h4>Club Game-Jam</h4>
+                <ul>
+                    <li>Fall 2021 TBA</li>
+                </ul>
+                <h4>Game Release Event</h4>
+                <ul>
+                    <li>April 2022 TBA</li>
+                </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
             <ul>
                 <li>
-                    <h4>
-                        Club Social
-                    </h4>
-                    <ul>
-                        <li>Friday, February 2, 2019</li>
-                        <li>Over</li>
-                    </ul>
+                    Email:
+                    <a href="mailto:heatwavestudioaz@gmail.com">heatwavestudioaz@gmail.com</a>
                 </li>
                 <li>
-                    <h4>Club Game-Jam</h4>
-                    <ul>
-                        <li>TBA</li>
-                    </ul>
+                    Facebook:
+                    <a href="https://www.facebook.com/VGDCASU/">https://www.facebook.com/VGDCASU/</a>
                 </li>
                 <li>
-                    <h4>Game Release Event</h4>
-                    <ul>
-                        <li>April TBA</li>
-                    </ul>
+                    Twitter:
+                    <a href="https://twitter.com/HeatwaveAZ/">https://twitter.com/HeatwaveAZ/</a>
                 </li>
             </ul>
         </section>
         <section>
-            <h3>Contact</h3>
-            <ul>
-                <li>
-                    <a href="mailto:25percentgames@gmail.com">25percentgames@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/VGDCASU/">Most of our information is available on Facebook</a>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>Games</h3>
-            <img src="VGDC-twentyfive-color.png" alt="25 percent games logo">
-            <p style="margin-top: 0;">We publish as
-                <span>25% Games</span>
-            </p>
+            <h2>Games</h2>
             <ul style="margin-top: 0;">
                 <li>
-                    <a href="https://25percentgames.itch.io/">Catch us on Itch.io</a>
+                    We publish as Heatwave Studio
+                </li>
+                <li>
+                    <a href="https://heatwave-studios.itch.io/">Catch us on Itch.io!</a>
+                </li>
+                <li>
+                    <a href="https://store.steampowered.com/search/?developer=Heatwave%20Studios">Catch us on Steam!</a>
                 </li>
             </ul>
         </section>
-        <section>
+        <!-- <section>
             <h3>Sponsors</h3>
             <ul>
-                <li>None</li>
+                <li>Leaving this here in the event we get sponsored again lol.</li>
             </ul>
-        </section>
-        <p style="padding-left: 0">&copy; ASU Video Game Development Club 2018</p>
+        </section> -->
+        <p style="padding-left: 0">&copy; ASU Video Game Development Club 2021</p>
     </div>
 </body>
 
